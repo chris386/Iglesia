@@ -108,37 +108,20 @@ body {
   line-height: 1;
 }
 
-body {
-  min-width: 1200px;
-}
-
-/* Containers
-----------------------------------------------------------------------------------------------------*/
-.container_12 {
-  margin-left: auto;
-  margin-right: auto;
-  /*width: auto;*/
-}
-
-/* Grid >> Global
-----------------------------------------------------------------------------------------------------*/
 
 
-.grid_12 {
-  display:inline;
-  position: relative;
-  margin-left: 5px;
-  margin-right: 5px;
-  
-}
+
 
 .grid_4 {
-  display:inline;
+
   float: left;
   position: relative;
   margin-left: 5px;
   margin-right: 5px;
-  height:500px;
+  margin-bottom: 8px;
+  height:230px;
+
+  
 }
 
 
@@ -146,26 +129,17 @@ body {
 ----------------------------------------------------------------------------------------------------*/
 
 .container_12 .grid_4 {
-  width:300px;
-  height:100%;
+  min-width:150px;
+  width:13.2%;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5), 0 5px 5px 0 rgba(0, 0, 0, 0.54);
+  transition: all 0.2s ease;
 }
 
 
-
-.container_12 .grid_4:hover{
-   -webkit-transition: all 0.4s ease;
- -moz-transition: all 0.4s ease;
- -ms-transition: all 0.4s ease;
- -o-transition: all 0.4s ease;
- transition: all 0.4s ease;
- width:400px;
- height:200%;
+ .grid_4:hover{
+ width:14%;
 }
 
-.container_12 .grid_12 {
-  width:1170px;
-}
 
 /* `Clear Floated Elements
 ----------------------------------------------------------------------------------------------------*/
